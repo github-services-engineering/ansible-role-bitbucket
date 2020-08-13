@@ -31,6 +31,10 @@ _bitbucket_download:
     url: "https://product-downloads.atlassian.com/software/stash/downloads/atlassian-bitbucket-7.3.0.tar.gz"
     dest: "{{ ansible_user_dir }}/.ansible/tmp/atlassian-bitbucket-7.3.0.tar.gz"
     checksum: "sha1:25780222d4319feecfad5dab01711233be54bbae"
+  5.4.1:
+    url: "https://product-downloads.atlassian.com/software/stash/downloads/atlassian-bitbucket-5.4.1.tar.gz"
+    dest: "{{ ansible_user_dir }}/.ansible/tmp/atlassian-bitbucket-5.4.1.tar.gz"
+    checksum: "sha1:bd2e715b6565a271db253e03479d98ae9f380d90"
 
 _mysql_jdbc_download:
   5.1.49:
