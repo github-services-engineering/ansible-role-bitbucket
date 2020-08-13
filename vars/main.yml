@@ -15,22 +15,6 @@
 # limitations under the License.
 
 _bitbucket_download:
-  7.4.1:
-    url: "https://product-downloads.atlassian.com/software/stash/downloads/atlassian-bitbucket-7.4.1.tar.gz"
-    dest: "{{ ansible_user_dir }}/.ansible/tmp/atlassian-bitbucket-7.4.1.tar.gz"
-    checksum: "sha1:b1bca152500006e6d4cb88ab27d7d3e9dd03f5cf"
-  7.4.0:
-    url: "https://product-downloads.atlassian.com/software/stash/downloads/atlassian-bitbucket-7.4.0.tar.gz"
-    dest: "{{ ansible_user_dir }}/.ansible/tmp/atlassian-bitbucket-7.4.0.tar.gz"
-    checksum: "sha1:1af5c752c2abc8c36cd21b479eb9e7fef44a0b94"
-  7.3.1:
-    url: "https://product-downloads.atlassian.com/software/stash/downloads/atlassian-bitbucket-7.3.1.tar.gz"
-    dest: "{{ ansible_user_dir }}/.ansible/tmp/atlassian-bitbucket-7.3.1.tar.gz"
-    checksum: "sha1:c8904deb589fc092d406f38e875da97402f70050"
-  7.3.0:
-    url: "https://product-downloads.atlassian.com/software/stash/downloads/atlassian-bitbucket-7.3.0.tar.gz"
-    dest: "{{ ansible_user_dir }}/.ansible/tmp/atlassian-bitbucket-7.3.0.tar.gz"
-    checksum: "sha1:25780222d4319feecfad5dab01711233be54bbae"
   5.4.1:
     url: "https://product-downloads.atlassian.com/software/stash/downloads/atlassian-bitbucket-5.4.1.tar.gz"
     dest: "{{ ansible_user_dir }}/.ansible/tmp/atlassian-bitbucket-5.4.1.tar.gz"
